@@ -7,7 +7,8 @@ const tick = () => {
             mins = now.getMinutes(),
             secs = now.getSeconds(),
              ampm = hours >= 12 ? 'pm' : 'am';
-    const html = `  // Hi :)
+    // Hi ;-
+    const html = `  
         <span>${hours}</span> :
         <span>${mins}</span> :
         <span>${secs}</span> :
